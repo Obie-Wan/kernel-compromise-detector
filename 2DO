@@ -1,4 +1,4 @@
 better checks, because lkm can delete module->kobject
-nf detect emprovement - get module name by addr of the hook function
+nf detect improvement - get module name by addr of the hook function
 syscall_table, int80 checks
 splicing checks
