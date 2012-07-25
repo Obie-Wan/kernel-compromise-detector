@@ -1,4 +1,5 @@
 Nearest todo list:
+ - fix ugly offset calculations
  - better checks, because lkm can delete module->kobject
  - nf detect improvement - get module name by addr of the hook function
  - syscall_table, int80 checks
