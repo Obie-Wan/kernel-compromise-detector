@@ -1,11 +1,7 @@
 /*
-
-    Kernel Compromise Detector v.0.5
-    Coded by The Specialist [localghost@jabber.ru]
-
-    Tested systems: Ubuntu 12.04, SMP, kernel 3.2.0
-
-*/
+ * main.c - main module routines	 
+ *
+ */
 
 #include <linux/init.h>
 #include <linux/module.h>
@@ -83,6 +79,6 @@ static void __exit cleanup(void)
 module_init(init);
 module_exit(cleanup);
 
-MODULE_LICENSE("GPL");
+MODULE_LICENSE("BSD");
 MODULE_AUTHOR("The Specialist [localghost@jabber.ru]");
 MODULE_DESCRIPTION(BANNER);

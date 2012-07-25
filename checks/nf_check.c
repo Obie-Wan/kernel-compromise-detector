@@ -1,3 +1,8 @@
+/*
+ * nf_check.c - checks for netfilter hooks (used in some lame rootkits)
+ *
+ */
+
 #include <linux/netfilter.h>
 
 #include "nf_check.h"

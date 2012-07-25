@@ -1,4 +1,5 @@
 
+// this offsets suck, fix!
 #define MOD_NAME_OFFSET		sizeof(int) + sizeof(struct list_head)
 #define MOD_ADDR_OFFSET		MODULE_NAME_LEN + sizeof(struct kobject)
 #define FULL_ADDR_OFFSET	MOD_NAME_OFFSET + MOD_ADDR_OFFSET
