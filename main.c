@@ -80,5 +80,5 @@ module_init(init);
 module_exit(cleanup);
 
 MODULE_LICENSE("BSD");
-MODULE_AUTHOR("The Specialist [localghost@jabber.ru]");
+MODULE_AUTHOR("Obie-Wan");
 MODULE_DESCRIPTION(BANNER);
